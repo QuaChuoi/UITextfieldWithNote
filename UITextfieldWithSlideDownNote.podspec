@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UITextfieldWithSlideDownNote'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UITextfieldWithSlideDownNote.'
+  s.summary          = 'An custom testfield with live validate note message'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+    Live note messages slide down / scroll up from bottom of view depend on custom validate function.
                        DESC
 
   s.homepage         = 'https://github.com/QuaChuoi/UITextfieldWithSlideDownNote'
@@ -29,6 +30,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'UITextfieldWithSlideDownNote/Classes/**/*'
   

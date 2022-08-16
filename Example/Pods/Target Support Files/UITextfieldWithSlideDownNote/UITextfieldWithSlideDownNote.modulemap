@@ -1,0 +1,6 @@
+framework module UITextfieldWithSlideDownNote {
+  umbrella header "UITextfieldWithSlideDownNote-umbrella.h"
+
+  export *
+  module * { export * }
+}

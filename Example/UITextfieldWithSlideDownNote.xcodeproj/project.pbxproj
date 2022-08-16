@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25F1B83D57F26549E5790E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25F1B83D57F26549E5790E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5ECED7EAF7F428428CA04693 /* Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig"; path = "Target Support Files/Pods-UITextfieldWithSlideDownNote_Tests/Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UITextfieldWithSlideDownNote_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextfieldWithSlideDownNote_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* UITextfieldWithSlideDownNote_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextfieldWithSlideDownNote_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		976EF0E95F23933E68EE70A8 /* UITextfieldWithSlideDownNote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UITextfieldWithSlideDownNote.podspec; path = ../UITextfieldWithSlideDownNote.podspec; sourceTree = "<group>"; };
+		976EF0E95F23933E68EE70A8 /* UITextfieldWithSlideDownNote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UITextfieldWithSlideDownNote.podspec; path = ../UITextfieldWithSlideDownNote.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9608F1C8850A7EA9797E63A /* Pods_UITextfieldWithSlideDownNote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextfieldWithSlideDownNote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A15D954055BA3EFBC133C4 /* Pods-UITextfieldWithSlideDownNote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextfieldWithSlideDownNote_Example.release.xcconfig"; path = "Target Support Files/Pods-UITextfieldWithSlideDownNote_Example/Pods-UITextfieldWithSlideDownNote_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABFEC1BA7A3BDD2240D813F5 /* Pods-UITextfieldWithSlideDownNote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextfieldWithSlideDownNote_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UITextfieldWithSlideDownNote_Tests/Pods-UITextfieldWithSlideDownNote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAED07815CD65FAE38A6C693 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CAED07815CD65FAE38A6C693 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D27B66D43258D27750817B98 /* Pods_UITextfieldWithSlideDownNote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextfieldWithSlideDownNote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA39CDB64832CF71D92A3D3F /* Pods-UITextfieldWithSlideDownNote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextfieldWithSlideDownNote_Example.debug.xcconfig"; path = "Target Support Files/Pods-UITextfieldWithSlideDownNote_Example/Pods-UITextfieldWithSlideDownNote_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				ABFEC1BA7A3BDD2240D813F5 /* Pods-UITextfieldWithSlideDownNote_Tests.debug.xcconfig */,
 				5ECED7EAF7F428428CA04693 /* Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - UITextfieldWithSlideDownNote (0.1.0)
+
+DEPENDENCIES:
+  - UITextfieldWithSlideDownNote (from `../`)
+
+EXTERNAL SOURCES:
+  UITextfieldWithSlideDownNote:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UITextfieldWithSlideDownNote: 6060d9b5ab2dfdadbc7874800383587c03bf08a0
+
+PODFILE CHECKSUM: dc1a4b54d1727db5c543f614e03645439013fb71
+
+COCOAPODS: 1.11.3
