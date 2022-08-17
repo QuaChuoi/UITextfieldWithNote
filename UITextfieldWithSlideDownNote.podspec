@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'UITextfieldWithSlideDownNote/Classes/**/*'
+  s.source_files = 'UITextfieldWithSlideDownNote/*'
   
   # s.resource_bundles = {
   #   'UITextfieldWithSlideDownNote' => ['UITextfieldWithSlideDownNote/Assets/*.png']
