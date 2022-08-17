@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0708551E8796C2F192A12DC66B828A94 /* Pods-UITextfieldWithSlideDownNote_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B135088B930D98F460B99CBF70C65 /* Pods-UITextfieldWithSlideDownNote_Example-dummy.m */; };
 		359785F928AB7EC20003B90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359785F628AB7EC20003B90B /* Assets.xcassets */; };
-		359785FA28AB7EC20003B90B /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 359785F728AB7EC20003B90B /* Extension */; };
-		359785FB28AB7EC20003B90B /* TextfieldComponent in Resources */ = {isa = PBXBuildFile; fileRef = 359785F828AB7EC20003B90B /* TextfieldComponent */; };
 		3C66DA552A3DBE41F5C4807326679F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5120AB1B81376DCBD3726344C190ECD6 /* UITextfieldWithSlideDownNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8668B2815560DD37980FA3AFA4A8E /* UITextfieldWithSlideDownNote-dummy.m */; };
 		519D8EB5BE83CAA3E8CA6C76C0C161AF /* Pods-UITextfieldWithSlideDownNote_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D5915BED73C9B998307E52E188BB2F /* Pods-UITextfieldWithSlideDownNote_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,9 +41,9 @@
 		22DD68FEDA52FA184F561D9AD52BF225 /* UITextfieldWithSlideDownNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextfieldWithSlideDownNote-umbrella.h"; sourceTree = "<group>"; };
 		26E94D33BDFFF2C4C23FBC0270BADAB7 /* Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextfieldWithSlideDownNote_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		276AA68E00FA103A562165DB5BF7BB57 /* Pods-UITextfieldWithSlideDownNote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITextfieldWithSlideDownNote_Example.modulemap"; sourceTree = "<group>"; };
+		3553D29B28ACEE9B00971820 /* TextfieldComponent */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextfieldComponent; path = UITextfieldWithSlideDownNote/Classes/TextfieldComponent; sourceTree = "<group>"; };
+		3553D29C28ACEEB600971820 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = UITextfieldWithSlideDownNote/Classes/Extension; sourceTree = "<group>"; };
 		359785F628AB7EC20003B90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		359785F728AB7EC20003B90B /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
-		359785F828AB7EC20003B90B /* TextfieldComponent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextfieldComponent; sourceTree = "<group>"; };
 		3746D433AA9CABB52F0149ECBD7C4E2A /* Pods-UITextfieldWithSlideDownNote_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextfieldWithSlideDownNote_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A170A1BED012EDD796AC5BB8AA5CBDE /* UITextfieldWithSlideDownNote */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextfieldWithSlideDownNote; path = UITextfieldWithSlideDownNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C3BF004E25FE4EC4D28CDA4BD60F36 /* Pods-UITextfieldWithSlideDownNote_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextfieldWithSlideDownNote_Example-Info.plist"; sourceTree = "<group>"; };
@@ -151,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				359785F628AB7EC20003B90B /* Assets.xcassets */,
-				359785F728AB7EC20003B90B /* Extension */,
-				359785F828AB7EC20003B90B /* TextfieldComponent */,
+				3553D29B28ACEE9B00971820 /* TextfieldComponent */,
+				3553D29C28ACEEB600971820 /* Extension */,
 				C03D4A711D59CFA7EBA3E9D942BC6400 /* LICENSE */,
 				ABF07CF54E3D676072F5078FD2954CC9 /* README.md */,
 				61E1682ECC0E44C0B27B848802F4F591 /* UITextfieldWithSlideDownNote.podspec */,
@@ -356,8 +354,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359785FA28AB7EC20003B90B /* Extension in Resources */,
-				359785FB28AB7EC20003B90B /* TextfieldComponent in Resources */,
 				359785F928AB7EC20003B90B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
