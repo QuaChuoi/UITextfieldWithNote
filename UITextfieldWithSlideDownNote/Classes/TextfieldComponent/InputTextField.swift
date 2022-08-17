@@ -50,13 +50,13 @@ class InputTextField: UIView {
     }
     
     private func setupView() {
-        field_Input.layer.borderColor = UIColor.black.cgColor
+//        field_Input.layer.borderColor = UIColor.black.cgColor
         field_Input.layer.cornerRadius = 8
         
         viewError.isHidden = true
         viewError.alpha = 0.0
         viewError.layer.borderWidth = 1.0
-        viewError.layer.borderColor = UIColor.darkGray.cgColor
+//        viewError.layer.borderColor = UIColor.darkGray.cgColor
         viewError.layer.cornerRadius = 8.0
         
         bt_TextSecure.setTitle("Show", for: .normal)
